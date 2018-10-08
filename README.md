@@ -17,9 +17,9 @@ At no time can there be more than 1 master running, even in the event of a netwo
 
 #Steps to run
 
-1. Clone the code from the repo
+1. Clone the code from the repo and cd into it.
 2. npm install
-3. cd into code-directory and do "node app.js" to run the application
+3. Do "node app.js" to run the application
 4. Use Postman or browser and hit http://localhost:3000 to start server
 5. On making requests, the response would be the node name "I am server node<id>"
 6. use kill -9 <master-process-id> to make the master node die. A new master is elected and old master is added to the pool. Verify by making equest again

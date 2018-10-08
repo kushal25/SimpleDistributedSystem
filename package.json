@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cluster": "^0.7.7",
+    "cluster": "^0.7.7"
   }
 }
